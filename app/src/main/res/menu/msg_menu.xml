@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/videocam"
+        android:title="vid_cam"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/call"
+        android:title="call"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/menu"
+        app:showAsAction="always"
+        android:title="menu"
+        />
+</menu>

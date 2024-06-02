@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="Required">Required</string>
+    <string name="next">NEXT</string>
+    <string name="enter_your_email_and_password">Enter your Email and Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="signin">SignIn</string>
+    <string name="signup">SignUp</string>
+    <string name="profile_info">Profile info</string>
+    <string name="please_provide_your_name_and_profile_photo">Please provide your name and profile photo</string>
+    <string name="type_your_name_here">Type your name here</string>
+    <string name="photo_error">Please enter your photo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="message">Message</string>
+    <string name="hello_calls_fragment">hello calls fragment</string>
+    <string name="archived">Archived</string>
+    <string name="status">Status</string>
+    <string name="recent_updates">Recent Updates</string>
+    <string name="required">Required</string>
+</resources>

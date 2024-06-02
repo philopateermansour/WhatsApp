@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:foregroundTint="#009688"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/Verify_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_90sdp"
+        android:text="Create a new account"
+        android:textColor="@color/green"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:backgroundTint="@color/green"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Verify_text"
+        app:layout_constraintWidth_percent="0.85" />
+
+    <EditText
+        android:id="@+id/text_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:backgroundTint="@color/green"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_email"
+        app:layout_constraintWidth_percent="0.85" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_sigup"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_43sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:backgroundTint="@color/green"
+        android:text="Signup"
+        android:textSize="@dimen/_13sdp"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_password" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
